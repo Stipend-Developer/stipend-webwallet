@@ -32,6 +32,11 @@ $lang['WALLET_CURRENT'] = 'ADDRESS: ';
 $lang['WALLET_ERROR'] = 'STATUS: ';
 $lang['WALLET_LAST10'] = 'RECENT TRANSACTIONS:';
 
+$lang['WALLET_DATE'] = 'Date';
+$lang['WALLET_FEE'] = 'Fee';
+$lang['WALLET_CONFS'] = 'Confs';
+$lang['WALLET_TYPE'] = 'Type';
+$lang['WALLET_INFO'] = 'Info';
 $lang['WALLET_USERLINKS'] = 'User Links:';
 $lang['WALLET_LOGOUT'] = 'Logout';
 $lang['WALLET_SUPPORT'] = 'Support';

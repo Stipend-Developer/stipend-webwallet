@@ -84,10 +84,10 @@
 }
 
 .dashboard-table-format {
-    width: calc(100% - 30px);
+    width: calc(100% - 24px);
     margin-bottom: 1em;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
     white-space: nowrap;
     font-family: Poppins;
     font-size: 14px;

@@ -4,7 +4,7 @@
     width: 100%;
     box-shadow: 0 0 5px #ccc;
     background-color: #fff;
-    height: 164px
+    overflow: auto;
 }
 
 .sendcoins-text {
@@ -12,11 +12,18 @@
     font-size: 14px;
     font-weight: 400;
     color: #999;
-    padding: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
-.sendcoins-input {
+.sendcoins-address {
     margin-left: 15px;
+    margin-top: 15px;
+}
+
+.sendcoins-amount {
+    margin-left: 15px;
+    margin-top: 8px;
 }
 
 .create-transaction {

@@ -43,6 +43,17 @@
                 <div class="transaction-text"><?php echo $lang['WALLET_LAST10']; ?></div>
                 <div class="transaction-table">
                     <table class="dashboard-table-format" id="txlist">
+			<thead>
+                            <tr>
+                                <td class="table-header" nowrap><?php echo $lang['WALLET_DATE']; ?></td>
+                                <td class="table-header" nowrap><?php echo $lang['WALLET_ADDRESS']; ?></td>
+                                <td class="table-header" nowrap><?php echo $lang['WALLET_TYPE']; ?></td>
+                                <td class="table-header" nowrap><?php echo $lang['WALLET_AMOUNT']; ?></td>
+                                <td class="table-header" nowrap><?php echo $lang['WALLET_FEE']; ?></td>
+                                <td class="table-header" nowrap><?php echo $lang['WALLET_CONFS']; ?></td>
+                                <td class="table-header" nowrap><?php echo $lang['WALLET_INFO']; ?></td>
+                            </tr>
+                        </thead>
                         <tbody>
                         <?php $bold_txxs = ""; foreach($transactionList as $transaction) {
                             if($transaction['category']=="send") { $tx_type = 'Sent'; } else { $tx_type = 'Received'; }
@@ -87,8 +98,8 @@
                 <form action="index.php" method="POST" class="clearfix" id="withdrawform">
                     <input type="hidden" name="action" value="withdraw" />
                     <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                    <div class="sendcoins-input"><input type="text" class="form-control" name="address" placeholder="<?php echo $lang['WALLET_ADDRESS']; ?>"></div>
-                    <div class="sendcoins-input"><input type="text" class="form-control" name="amount" placeholder="<?php echo $lang['WALLET_AMOUNT']; ?>"></div>
+                    <div class="sendcoins-address"><input type="text" class="form-control" name="address" placeholder="<?php echo $lang['WALLET_ADDRESS']; ?>"></div>
+                    <div class="sendcoins-amount"><input type="text" class="form-control" name="amount" placeholder="<?php echo $lang['WALLET_AMOUNT']; ?>"></div>
                     <button type="submit" class="create-transaction"><?php echo $lang['WALLET_SENDCONF']; ?></button>
                 </form>
                 <p id="withdrawmsg"></p>
