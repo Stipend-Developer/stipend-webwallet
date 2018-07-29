@@ -1,0 +1,78 @@
+/* CSS for Settings */
+
+.settings-container {
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+    overflow: auto;
+    margin-bottom: 15px;
+}
+
+.settings-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    padding: 15px;
+}
+
+.twofa-container {
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+    overflow: auto; 
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.twofa-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    padding: 15px;
+}
+
+.logout {
+    margin-left: 15px;
+    margin-bottom: -8px;
+}
+
+.support {
+    margin-left: 15px;
+}
+
+.twofa-on {
+    margin-left: 15px;
+    margin-bottom: -8px;
+}
+
+.twofa-off {
+    margin-left: 15px;
+}
+
+.password-update {
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.password-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    padding: 15px;
+}
+
+.settings-input {
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+.change-password {
+    margin-left: 15px;
+    margin-top: 15px
+}

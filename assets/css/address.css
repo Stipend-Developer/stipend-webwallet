@@ -1,0 +1,47 @@
+/* CSS for Address */
+
+.address-new {
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.generate-address {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.address-list {
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+    height: calc(100% - 145px)
+}
+
+.address-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    padding: 15px;
+}
+
+.address-table {
+    max-height: calc(100% - 64px);
+    overflow: auto;
+}
+
+.address-table-format {
+    width: calc(100% - 30px);
+    table-layout: fixed;
+    margin-bottom: 15px;
+    margin-left: 12px;
+    margin-right: 15px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-size: 3.5vw;
+    font-weight: 400;
+    color: #34495f;"
+}

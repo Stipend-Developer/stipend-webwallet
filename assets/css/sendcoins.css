@@ -1,0 +1,25 @@
+/* CSS for SendCoins */
+
+.sendcoins-container {
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+    height: 164px
+}
+
+.sendcoins-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    padding: 15px;
+}
+
+.sendcoins-input {
+    margin-left: 15px;
+}
+
+.create-transaction {
+    margin-left: 15px;
+    margin-top: 15px;
+}

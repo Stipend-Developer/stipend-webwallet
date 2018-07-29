@@ -1,0 +1,82 @@
+/* CSS for Home Page */
+
+.background-container {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 20px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/stipend-background.jpg);
+    background-size: 100% 100%;
+}
+
+.center-container {
+    width: 95%;
+    height: 95%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.title-text {
+    font-weight: bold;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+.data-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 0 20px #444;
+    background: rgba(255,255,255,0.15);
+}
+
+.data-box {
+    text-align: center;
+}
+
+.login-data {
+    display: inline-block;
+    width: 45%;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.register-data {
+    margin-left: 10px;
+    display: inline-block;
+    width: 45%;
+    color: #fff;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.credit-box {
+    padding-bottom: 10px;
+}
+
+.credits {
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
